@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EsLib", "..\EsLib\EsLib.vcproj", "{C393ED6D-FEDB-4988-BA7F-CCA85EE0226C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GwLibSrc", "..\GwLibSrc\GwLibSrc.vcproj", "{BDEFB547-49E8-4616-976E-9317EBA8122F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EsTool", "EsTool.vcproj", "{AE10A69C-E953-4702-A4A1-BE97D0252ED2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_Global_Dev_Auto|Win32 = Debug_Global_Dev_Auto|Win32
+		Debug_Global_Dev|Win32 = Debug_Global_Dev|Win32
+		Debug_vTune|Win32 = Debug_vTune|Win32
+		Debug|Win32 = Debug|Win32
+		Release_NetLog|Win32 = Release_NetLog|Win32
+		Release_NoGameGuard|Win32 = Release_NoGameGuard|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C393ED6D-FEDB-4988-BA7F-CCA85EE0226C}.Debug_Global_Dev_Auto|Win32.ActiveCfg = Debug|Win32
+		{C393ED6D-FEDB-4988-BA7F-CCA85EE0226C}.Debug_Global_Dev_Auto|Win32.Build.0 = Debug|Win32
+		{C393ED6D-FEDB-4988-BA7F-CCA85EE0226C}.Debug_Global_Dev|Win32.ActiveCfg = Debug|Win32
+		{C393ED6D-FEDB-4988-BA7F-CCA85EE0226C}.Debug_Global_Dev|Win32.Build.0 = Debug|Win32
+		{C393ED6D-FEDB-4988-BA7F-CCA85EE0226C}.Debug_vTune|Win32.ActiveCfg = Debug|Win32
+		{C393ED6D-FEDB-4988-BA7F-CCA85EE0226C}.Debug_vTune|Win32.Build.0 = Debug|Win32
+		{C393ED6D-FEDB-4988-BA7F-CCA85EE0226C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C393ED6D-FEDB-4988-BA7F-CCA85EE0226C}.Debug|Win32.Build.0 = Debug|Win32
+		{C393ED6D-FEDB-4988-BA7F-CCA85EE0226C}.Release_NetLog|Win32.ActiveCfg = Release_NetLog|Win32
+		{C393ED6D-FEDB-4988-BA7F-CCA85EE0226C}.Release_NetLog|Win32.Build.0 = Release_NetLog|Win32
+		{C393ED6D-FEDB-4988-BA7F-CCA85EE0226C}.Release_NoGameGuard|Win32.ActiveCfg = Release_NetLog|Win32
+		{C393ED6D-FEDB-4988-BA7F-CCA85EE0226C}.Release_NoGameGuard|Win32.Build.0 = Release_NetLog|Win32
+		{C393ED6D-FEDB-4988-BA7F-CCA85EE0226C}.Release|Win32.ActiveCfg = Release|Win32
+		{C393ED6D-FEDB-4988-BA7F-CCA85EE0226C}.Release|Win32.Build.0 = Release|Win32
+		{BDEFB547-49E8-4616-976E-9317EBA8122F}.Debug_Global_Dev_Auto|Win32.ActiveCfg = Debug_Global_Dev_Auto|Win32
+		{BDEFB547-49E8-4616-976E-9317EBA8122F}.Debug_Global_Dev_Auto|Win32.Build.0 = Debug_Global_Dev_Auto|Win32
+		{BDEFB547-49E8-4616-976E-9317EBA8122F}.Debug_Global_Dev|Win32.ActiveCfg = Debug_Global_Dev|Win32
+		{BDEFB547-49E8-4616-976E-9317EBA8122F}.Debug_Global_Dev|Win32.Build.0 = Debug_Global_Dev|Win32
+		{BDEFB547-49E8-4616-976E-9317EBA8122F}.Debug_vTune|Win32.ActiveCfg = Debug_vTune|Win32
+		{BDEFB547-49E8-4616-976E-9317EBA8122F}.Debug_vTune|Win32.Build.0 = Debug_vTune|Win32
+		{BDEFB547-49E8-4616-976E-9317EBA8122F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BDEFB547-49E8-4616-976E-9317EBA8122F}.Debug|Win32.Build.0 = Debug|Win32
+		{BDEFB547-49E8-4616-976E-9317EBA8122F}.Release_NetLog|Win32.ActiveCfg = Release_NetLog|Win32
+		{BDEFB547-49E8-4616-976E-9317EBA8122F}.Release_NetLog|Win32.Build.0 = Release_NetLog|Win32
+		{BDEFB547-49E8-4616-976E-9317EBA8122F}.Release_NoGameGuard|Win32.ActiveCfg = Release_NoGameGuard|Win32
+		{BDEFB547-49E8-4616-976E-9317EBA8122F}.Release_NoGameGuard|Win32.Build.0 = Release_NoGameGuard|Win32
+		{BDEFB547-49E8-4616-976E-9317EBA8122F}.Release|Win32.ActiveCfg = Release|Win32
+		{BDEFB547-49E8-4616-976E-9317EBA8122F}.Release|Win32.Build.0 = Release|Win32
+		{AE10A69C-E953-4702-A4A1-BE97D0252ED2}.Debug_Global_Dev_Auto|Win32.ActiveCfg = Debug|Win32
+		{AE10A69C-E953-4702-A4A1-BE97D0252ED2}.Debug_Global_Dev_Auto|Win32.Build.0 = Debug|Win32
+		{AE10A69C-E953-4702-A4A1-BE97D0252ED2}.Debug_Global_Dev|Win32.ActiveCfg = Debug|Win32
+		{AE10A69C-E953-4702-A4A1-BE97D0252ED2}.Debug_Global_Dev|Win32.Build.0 = Debug|Win32
+		{AE10A69C-E953-4702-A4A1-BE97D0252ED2}.Debug_vTune|Win32.ActiveCfg = Debug|Win32
+		{AE10A69C-E953-4702-A4A1-BE97D0252ED2}.Debug_vTune|Win32.Build.0 = Debug|Win32
+		{AE10A69C-E953-4702-A4A1-BE97D0252ED2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AE10A69C-E953-4702-A4A1-BE97D0252ED2}.Debug|Win32.Build.0 = Debug|Win32
+		{AE10A69C-E953-4702-A4A1-BE97D0252ED2}.Release_NetLog|Win32.ActiveCfg = Release|Win32
+		{AE10A69C-E953-4702-A4A1-BE97D0252ED2}.Release_NetLog|Win32.Build.0 = Release|Win32
+		{AE10A69C-E953-4702-A4A1-BE97D0252ED2}.Release_NoGameGuard|Win32.ActiveCfg = Release|Win32
+		{AE10A69C-E953-4702-A4A1-BE97D0252ED2}.Release_NoGameGuard|Win32.Build.0 = Release|Win32
+		{AE10A69C-E953-4702-A4A1-BE97D0252ED2}.Release|Win32.ActiveCfg = Release|Win32
+		{AE10A69C-E953-4702-A4A1-BE97D0252ED2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AE10A69C-E953-4702-A4A1-BE97D0252ED2}</ProjectGuid>
+    <RootNamespace>EsTool</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.31025.104</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm200 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>Common;./;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>..\..\ES_Tool\$(ProjectName)_D.exe</OutputFile>
+      <AdditionalLibraryDirectories>../vld/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm200 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MinSpace</Optimization>
+      <AdditionalIncludeDirectories>Common;./;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>..\..\ES_Tool\$(ProjectName).exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapExports>true</MapExports>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Data">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Xml">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EsLib\EsLib.vcxproj">
+      <Project>{c393ed6d-fedb-4988-ba7f-cca85ee0226c}</Project>
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AppEvent.cpp" />
+    <ClCompile Include="ConstructureD3DPP.cpp" />
+    <ClCompile Include="DX9DeviceAdapterInfo.cpp" />
+    <ClCompile Include="DX9DeviceDesc.cpp" />
+    <ClCompile Include="DX9DeviceInfo.cpp" />
+    <ClCompile Include="EsTool.cpp" />
+    <ClCompile Include="EsToolApplication.cpp" />
+    <ClCompile Include="Event.cpp" />
+    <ClCompile Include="FrameWorks.cpp" />
+    <ClCompile Include="GameStage.cpp" />
+    <ClCompile Include="GameStageMgr.cpp" />
+    <ClCompile Include="GameStage_DialogBase.cpp" />
+    <ClCompile Include="GameStage_Hierarchy.cpp" />
+    <ClCompile Include="GameStage_Inspector.cpp" />
+    <ClCompile Include="GameStage_Main.cpp" />
+    <ClCompile Include="GameStage_Menu.cpp" />
+    <ClCompile Include="GameStage_Project.cpp" />
+    <ClCompile Include="GameStage_TimeLine.cpp" />
+    <ClCompile Include="GizmoObject.cpp" />
+    <ClCompile Include="Helper.cpp" />
+    <ClCompile Include="Notification.cpp" />
+    <ClCompile Include="NotificationArg.cpp" />
+    <ClCompile Include="NotificationCenter.cpp" />
+    <ClCompile Include="PathObjectRender.cpp" />
+    <ClCompile Include="PathObjectRenderMgr.cpp" />
+    <ClCompile Include="PerspectiveCamera.cpp" />
+    <ClCompile Include="PickingMeshColliderWireFrameRender.cpp" />
+    <ClCompile Include="PickingMgr.cpp" />
+    <ClCompile Include="PickingObjectWireFrameRender.cpp" />
+    <ClCompile Include="PopupMenu.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="RTTIObject.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TableMgr.cpp" />
+    <ClCompile Include="Table_GameObject_Tag.cpp" />
+    <ClCompile Include="Table_Menu.cpp" />
+    <ClCompile Include="UIComponent.cpp" />
+    <ClCompile Include="UIComponent_AddComponent.cpp" />
+    <ClCompile Include="UIComponent_BillboardObject.cpp" />
+    <ClCompile Include="UIComponent_GameObject_Tag.cpp" />
+    <ClCompile Include="UIComponent_MeshCollider.cpp" />
+    <ClCompile Include="UIComponent_ParticleObject.cpp" />
+    <ClCompile Include="UIComponent_PathObject.cpp" />
+    <ClCompile Include="UIComponent_SkinMeshObject.cpp" />
+    <ClCompile Include="UIComponent_Transform.cpp" />
+    <ClCompile Include="UIDragItemBase.cpp" />
+    <ClCompile Include="UIDragItemSprite.cpp" />
+    <ClCompile Include="UIDragObject.cpp" />
+    <ClCompile Include="UIHelper.cpp" />
+    <ClCompile Include="UIListView.cpp" />
+    <ClCompile Include="UIListViewItem.cpp" />
+    <ClCompile Include="UIListViewItemInfo.cpp" />
+    <ClCompile Include="UITreeView.cpp" />
+    <ClCompile Include="UITreeViewItem.cpp" />
+    <ClCompile Include="UniqueName.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppEvent.h" />
+    <ClInclude Include="ConstructureD3DPP.h" />
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="Disposable.h" />
+    <ClInclude Include="DX9DeviceAdapterInfo.h" />
+    <ClInclude Include="DX9DeviceDesc.h" />
+    <ClInclude Include="DX9DeviceInfo.h" />
+    <ClInclude Include="EsTool.h" />
+    <ClInclude Include="EsToolApplication.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="FrameWorks.h" />
+    <ClInclude Include="FrameWorksConstant.h" />
+    <ClInclude Include="GameEventArgType.h" />
+    <ClInclude Include="GameStage.h" />
+    <ClInclude Include="GameStageMgr.h" />
+    <ClInclude Include="GameStage_DialogBase.h" />
+    <ClInclude Include="GameStage_Hierarchy.h" />
+    <ClInclude Include="GameStage_Inspector.h" />
+    <ClInclude Include="GameStage_Main.h" />
+    <ClInclude Include="GameStage_Menu.h" />
+    <ClInclude Include="GameStage_Project.h" />
+    <ClInclude Include="GameStage_TimeLine.h" />
+    <ClInclude Include="GizmoObject.h" />
+    <ClInclude Include="Helper.h" />
+    <ClInclude Include="Include.h" />
+    <ClInclude Include="LibraryLink.h" />
+    <ClInclude Include="NotificationArg.h" />
+    <ClInclude Include="NotificationCenter.h" />
+    <ClInclude Include="NotificationDef.h" />
+    <ClInclude Include="Parameta.h" />
+    <ClInclude Include="PathObjectRender.h" />
+    <ClInclude Include="PathObjectRenderMgr.h" />
+    <ClInclude Include="PerspectiveCamera.h" />
+    <ClInclude Include="PickingMeshColliderWireFrameRender.h" />
+    <ClInclude Include="PickingMgr.h" />
+    <ClInclude Include="PickingObjectWireFrameRender.h" />
+    <ClInclude Include="PopupMenu.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="RTTIObject.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TableMgr.h" />
+    <ClInclude Include="Table_GameObject_Tag.h" />
+    <ClInclude Include="Table_Menu.h" />
+    <ClInclude Include="UIComponent.h" />
+    <ClInclude Include="UIComponent_AddComponent.h" />
+    <ClInclude Include="UIComponent_BillboardObject.h" />
+    <ClInclude Include="UIComponent_GameObject_Tag.h" />
+    <ClInclude Include="UIComponent_MeshCollider.h" />
+    <ClInclude Include="UIComponent_ParticleObject.h" />
+    <ClInclude Include="UIComponent_PathObject.h" />
+    <ClInclude Include="UIComponent_SkinMeshObject.h" />
+    <ClInclude Include="UIComponent_Transform.h" />
+    <ClInclude Include="UIDragItemBase.h" />
+    <ClInclude Include="UIDragItemSprite.h" />
+    <ClInclude Include="UIDragObject.h" />
+    <ClInclude Include="UIHelper.h" />
+    <ClInclude Include="UIListView.h" />
+    <ClInclude Include="UIListViewItem.h" />
+    <ClInclude Include="UIListViewItemInfo.h" />
+    <ClInclude Include="UITreeView.h" />
+    <ClInclude Include="UITreeViewItem.h" />
+    <ClInclude Include="UniqueName.h" />
+    <ClInclude Include="Util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Event.inl" />
+    <None Include="FrameWorks.inl" />
+    <None Include="GameStageMgr.inl" />
+    <None Include="Helper.inl" />
+    <None Include="ResourceManager.inl" />
+    <None Include="UIHelper.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EsTool.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

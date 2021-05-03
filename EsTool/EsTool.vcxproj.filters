@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="EsToolApplication">
+      <UniqueIdentifier>{8489049a-6dd3-46e3-9575-928d80c5f96a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStageMgr">
+      <UniqueIdentifier>{18e5fbd4-ece7-4e06-9023-efbe507e8874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStages">
+      <UniqueIdentifier>{3b50280f-055d-4494-8099-8b452c494ce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStages\GUI">
+      <UniqueIdentifier>{9379b420-135b-4471-b367-7ff1868a13ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStages\GUI\Hierarchy">
+      <UniqueIdentifier>{c7d0df01-4f15-43ed-8247-2a5c9761e247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStages\GUI\Hierarchy\PathObject">
+      <UniqueIdentifier>{ae850b6d-9013-4897-9ab7-fea578e1da8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStages\GUI\Hierarchy\Gizmo">
+      <UniqueIdentifier>{7c5a2575-c7cf-461d-b823-446383ef56e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStages\GUI\Inspector">
+      <UniqueIdentifier>{da93ed2e-18eb-4af6-b50e-c95d1abc6ee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStages\GUI\Inspector\Component">
+      <UniqueIdentifier>{9e00709e-ff1e-4b0b-910f-2083b3740046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStages\GUI\Project">
+      <UniqueIdentifier>{f4030a0a-c2b2-4bb3-9417-972072d2a48a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStages\GUI\TimeLine">
+      <UniqueIdentifier>{eb9da259-2194-4ce9-9efa-e0cc9ddeeee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStages\GUI\Menu">
+      <UniqueIdentifier>{d9eebbfe-a4fd-4d48-bf4d-2eb5a8625050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStages\GUI\UIHelper">
+      <UniqueIdentifier>{cdffcfee-ae5e-49d1-bf32-0b344dcc675c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStages\GUI\UIObject">
+      <UniqueIdentifier>{bf49006e-bb05-4b2c-81c9-3b563bac3031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{a8d3f27d-007a-488c-8bfe-6c6f6a9a1682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stdafx">
+      <UniqueIdentifier>{03b6adfc-3e83-4753-8276-10264fd4dfd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NotificationCenter">
+      <UniqueIdentifier>{ebbc49d0-9a38-4d73-bc13-086ab74c488e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{03b76cb1-0ca1-448b-838d-5b47afe4f44e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frameworks">
+      <UniqueIdentifier>{8a068d54-6c24-4ace-94a3-5ce653465088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResourceManager">
+      <UniqueIdentifier>{74d7b520-114c-4918-9d1f-7bdcd079d591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Table">
+      <UniqueIdentifier>{fa33c3f1-6b18-4e1f-9ac4-3c9e05c3c95c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Table\Menu">
+      <UniqueIdentifier>{c8c95dd9-12fe-449f-abaf-e65571324edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event">
+      <UniqueIdentifier>{778d4aa5-6215-4118-8105-c64760a0a52c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{3a543ffb-6fd8-45af-8da6-3f77cdeed342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Info">
+      <UniqueIdentifier>{80224fac-e575-4596-ac8b-a00531440c8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PickingMgr">
+      <UniqueIdentifier>{0d5f2633-8994-49d5-a93c-9d1d5d2625ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PickingMgr\PickObjectWireFrameRender">
+      <UniqueIdentifier>{5b6260ce-fb1e-411e-912e-cbb3dc6fcbc1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EsToolApplication.cpp">
+      <Filter>EsToolApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStage_Main.cpp">
+      <Filter>EsToolApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStage.cpp">
+      <Filter>GameStageMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStageMgr.cpp">
+      <Filter>GameStageMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStage_DialogBase.cpp">
+      <Filter>GameStages\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStage_Hierarchy.cpp">
+      <Filter>GameStages\GUI\Hierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="PopupMenu.cpp">
+      <Filter>GameStages\GUI\Hierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="PathObjectRender.cpp">
+      <Filter>GameStages\GUI\Hierarchy\PathObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PathObjectRenderMgr.cpp">
+      <Filter>GameStages\GUI\Hierarchy\PathObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GizmoObject.cpp">
+      <Filter>GameStages\GUI\Hierarchy\Gizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStage_Inspector.cpp">
+      <Filter>GameStages\GUI\Inspector</Filter>
+    </ClCompile>
+    <ClCompile Include="UIComponent.cpp">
+      <Filter>GameStages\GUI\Inspector\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="UIComponent_AddComponent.cpp">
+      <Filter>GameStages\GUI\Inspector\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="UIComponent_BillboardObject.cpp">
+      <Filter>GameStages\GUI\Inspector\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="UIComponent_GameObject_Tag.cpp">
+      <Filter>GameStages\GUI\Inspector\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="UIComponent_MeshCollider.cpp">
+      <Filter>GameStages\GUI\Inspector\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="UIComponent_ParticleObject.cpp">
+      <Filter>GameStages\GUI\Inspector\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="UIComponent_PathObject.cpp">
+      <Filter>GameStages\GUI\Inspector\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="UIComponent_SkinMeshObject.cpp">
+      <Filter>GameStages\GUI\Inspector\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="UIComponent_Transform.cpp">
+      <Filter>GameStages\GUI\Inspector\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStage_Project.cpp">
+      <Filter>GameStages\GUI\Project</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStage_TimeLine.cpp">
+      <Filter>GameStages\GUI\TimeLine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStage_Menu.cpp">
+      <Filter>GameStages\GUI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="UIHelper.cpp">
+      <Filter>GameStages\GUI\UIHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDragItemBase.cpp">
+      <Filter>GameStages\GUI\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDragItemSprite.cpp">
+      <Filter>GameStages\GUI\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDragObject.cpp">
+      <Filter>GameStages\GUI\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="UIListView.cpp">
+      <Filter>GameStages\GUI\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="UIListViewItem.cpp">
+      <Filter>GameStages\GUI\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="UIListViewItemInfo.cpp">
+      <Filter>GameStages\GUI\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="UITreeView.cpp">
+      <Filter>GameStages\GUI\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="UITreeViewItem.cpp">
+      <Filter>GameStages\GUI\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="EsTool.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Stdafx</Filter>
+    </ClCompile>
+    <ClCompile Include="Notification.cpp">
+      <Filter>NotificationCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="NotificationArg.cpp">
+      <Filter>NotificationCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="NotificationCenter.cpp">
+      <Filter>NotificationCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="UniqueName.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstructureD3DPP.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="DX9DeviceAdapterInfo.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="DX9DeviceDesc.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="DX9DeviceInfo.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameWorks.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TableMgr.cpp">
+      <Filter>Table</Filter>
+    </ClCompile>
+    <ClCompile Include="Table_GameObject_Tag.cpp">
+      <Filter>Table\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Table_Menu.cpp">
+      <Filter>Table\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="AppEvent.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="RTTIObject.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="PerspectiveCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="PickingMgr.cpp">
+      <Filter>PickingMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="PickingMeshColliderWireFrameRender.cpp">
+      <Filter>PickingMgr\PickObjectWireFrameRender</Filter>
+    </ClCompile>
+    <ClCompile Include="PickingObjectWireFrameRender.cpp">
+      <Filter>PickingMgr\PickObjectWireFrameRender</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EsToolApplication.h">
+      <Filter>EsToolApplication</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStage_Main.h">
+      <Filter>EsToolApplication</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStage.h">
+      <Filter>GameStageMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStageMgr.h">
+      <Filter>GameStageMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStage_DialogBase.h">
+      <Filter>GameStages\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStage_Hierarchy.h">
+      <Filter>GameStages\GUI\Hierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="PopupMenu.h">
+      <Filter>GameStages\GUI\Hierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="PathObjectRender.h">
+      <Filter>GameStages\GUI\Hierarchy\PathObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PathObjectRenderMgr.h">
+      <Filter>GameStages\GUI\Hierarchy\PathObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GizmoObject.h">
+      <Filter>GameStages\GUI\Hierarchy\Gizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStage_Inspector.h">
+      <Filter>GameStages\GUI\Inspector</Filter>
+    </ClInclude>
+    <ClInclude Include="UIComponent.h">
+      <Filter>GameStages\GUI\Inspector\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="UIComponent_AddComponent.h">
+      <Filter>GameStages\GUI\Inspector\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="UIComponent_BillboardObject.h">
+      <Filter>GameStages\GUI\Inspector\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="UIComponent_GameObject_Tag.h">
+      <Filter>GameStages\GUI\Inspector\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="UIComponent_MeshCollider.h">
+      <Filter>GameStages\GUI\Inspector\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="UIComponent_ParticleObject.h">
+      <Filter>GameStages\GUI\Inspector\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="UIComponent_PathObject.h">
+      <Filter>GameStages\GUI\Inspector\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="UIComponent_SkinMeshObject.h">
+      <Filter>GameStages\GUI\Inspector\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="UIComponent_Transform.h">
+      <Filter>GameStages\GUI\Inspector\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStage_Project.h">
+      <Filter>GameStages\GUI\Project</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStage_TimeLine.h">
+      <Filter>GameStages\GUI\TimeLine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStage_Menu.h">
+      <Filter>GameStages\GUI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="UIHelper.h">
+      <Filter>GameStages\GUI\UIHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDragItemBase.h">
+      <Filter>GameStages\GUI\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDragItemSprite.h">
+      <Filter>GameStages\GUI\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDragObject.h">
+      <Filter>GameStages\GUI\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="UIListView.h">
+      <Filter>GameStages\GUI\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="UIListViewItem.h">
+      <Filter>GameStages\GUI\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="UIListViewItemInfo.h">
+      <Filter>GameStages\GUI\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="UITreeView.h">
+      <Filter>GameStages\GUI\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="UITreeViewItem.h">
+      <Filter>GameStages\GUI\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="EsTool.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="NotificationArg.h">
+      <Filter>NotificationCenter</Filter>
+    </ClInclude>
+    <ClInclude Include="NotificationCenter.h">
+      <Filter>NotificationCenter</Filter>
+    </ClInclude>
+    <ClInclude Include="NotificationDef.h">
+      <Filter>NotificationCenter</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="UniqueName.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstructureD3DPP.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="DX9DeviceAdapterInfo.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="DX9DeviceDesc.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="DX9DeviceInfo.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameWorks.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameWorksConstant.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TableMgr.h">
+      <Filter>Table</Filter>
+    </ClInclude>
+    <ClInclude Include="Table_GameObject_Tag.h">
+      <Filter>Table\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Table_Menu.h">
+      <Filter>Table\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="AppEvent.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Disposable.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEventArgType.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="RTTIObject.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="PerspectiveCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Parameta.h">
+      <Filter>Info</Filter>
+    </ClInclude>
+    <ClInclude Include="PickingMgr.h">
+      <Filter>PickingMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="PickingMeshColliderWireFrameRender.h">
+      <Filter>PickingMgr\PickObjectWireFrameRender</Filter>
+    </ClInclude>
+    <ClInclude Include="PickingObjectWireFrameRender.h">
+      <Filter>PickingMgr\PickObjectWireFrameRender</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="Include.h" />
+    <ClInclude Include="LibraryLink.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GameStageMgr.inl">
+      <Filter>GameStageMgr</Filter>
+    </None>
+    <None Include="UIHelper.inl">
+      <Filter>GameStages\GUI\UIHelper</Filter>
+    </None>
+    <None Include="Helper.inl">
+      <Filter>Util</Filter>
+    </None>
+    <None Include="FrameWorks.inl">
+      <Filter>Frameworks</Filter>
+    </None>
+    <None Include="ResourceManager.inl">
+      <Filter>ResourceManager</Filter>
+    </None>
+    <None Include="Event.inl">
+      <Filter>Event</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EsTool.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico" />
+  </ItemGroup>
+</Project>

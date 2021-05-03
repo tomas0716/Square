@@ -1,0 +1,16 @@
+#include "StdAfx.h"
+#include "NotificationArg.h"
+
+ImplementRTTIObject(NotificationArg_TreeView, NotificationArg);
+ImplementRTTIObject(NotificationArg_ListView, NotificationArg);
+
+ImplementRTTIObject(NotificationArg_GameObject_Position, NotificationArg);
+ImplementRTTIObject(NotificationArg_GameObject_Rotation, NotificationArg);
+ImplementRTTIObject(NotificationArg_GameObject_Scale, NotificationArg);
+
+ImplementRTTIObject(NotificationArg_InspectorComponent_TextureInfo_Find, NotificationArg);
+ImplementRTTIObject(NotificationArg_InspectorComponent_AnimInfo_Find, NotificationArg);
+ImplementRTTIObject(NotificationArg_InspectorComponent_MeshInfo_Find, NotificationArg);
+
+ImplementRTTIObject(NotificationArg_InspectorComponent_GameObject_Tag_Remove, NotificationArg);
+ImplementRTTIObject(NotificationArg_InspectorComponent_PathObject_InfoChange, NotificationArg);

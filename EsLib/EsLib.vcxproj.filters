@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="PathObject">
+      <UniqueIdentifier>{8b95c73f-f91e-4213-b26e-135acf2c1563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stdafx">
+      <UniqueIdentifier>{fee9befe-4a16-4f88-ad63-abd57d9d3f4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{aec4071a-be76-4de5-ac0d-d2ec676bd663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{049430b1-b907-41f5-8619-89a21be5645d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderObject">
+      <UniqueIdentifier>{16bd4e60-52c8-4771-837d-aa03aa596eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particle">
+      <UniqueIdentifier>{7451427a-a26e-4d6c-b8c5-34bf61fd94e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{551158d5-601d-4e6b-b35d-bd1cfbacf9e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SingletonObject">
+      <UniqueIdentifier>{8ac1da5b-b616-411f-bc1b-c811cf64f8f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Random">
+      <UniqueIdentifier>{4189bb24-58be-4a17-91cd-c04ca7fdd7eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResourceHelper">
+      <UniqueIdentifier>{8b6d499d-4668-4c95-af33-97a4bf2c6b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{1273e3b4-713d-4a65-b89f-33d75fc5bdbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{e2e8fb60-8918-42ba-ae12-473517937d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Node">
+      <UniqueIdentifier>{a54335b9-97fe-4f56-b681-5f978d6eba1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transformer">
+      <UniqueIdentifier>{a4e58420-3b60-405c-b6e7-b17fc99c7d70}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PathObject.cpp">
+      <Filter>PathObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>Stdafx</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Bezier4.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="HashObject.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Type.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeManager.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeObject.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Billboard.cpp">
+      <Filter>RenderObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinMesh.cpp">
+      <Filter>RenderObject</Filter>
+    </ClCompile>
+    <ClCompile Include="EmissionShape.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleObject.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleObjectInfo.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component_MeshCollider.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component_Trans.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component_TransInfo.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="SingletonObject.cpp">
+      <Filter>SingletonObject</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomClr.cpp">
+      <Filter>Random</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomF.cpp">
+      <Filter>Random</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomI.cpp">
+      <Filter>Random</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomVec.cpp">
+      <Filter>Random</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceHelper.cpp">
+      <Filter>ResourceHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectMgr.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Node</Filter>
+    </ClCompile>
+    <ClCompile Include="Transformer.cpp">
+      <Filter>Transformer</Filter>
+    </ClCompile>
+    <ClCompile Include="Transformer_Pos.cpp">
+      <Filter>Transformer</Filter>
+    </ClCompile>
+    <ClCompile Include="Transformer_Scalar.cpp">
+      <Filter>Transformer</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformerEvent.cpp">
+      <Filter>Transformer</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PathObject.h">
+      <Filter>PathObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>Stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Bezier4.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegate.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="HashObject.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Type.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeManager.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeObject.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Billboard.h">
+      <Filter>RenderObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinMesh.h">
+      <Filter>RenderObject</Filter>
+    </ClInclude>
+    <ClInclude Include="EmissionShape.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleObject.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleObjectInfo.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component_MeshCollider.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component_Trans.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component_TransInfo.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonObject.h">
+      <Filter>SingletonObject</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomClr.h">
+      <Filter>Random</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomF.h">
+      <Filter>Random</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomI.h">
+      <Filter>Random</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomVec.h">
+      <Filter>Random</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceHelper.h">
+      <Filter>ResourceHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectMgr.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Node</Filter>
+    </ClInclude>
+    <ClInclude Include="Transformer.h">
+      <Filter>Transformer</Filter>
+    </ClInclude>
+    <ClInclude Include="Transformer_Pos.h">
+      <Filter>Transformer</Filter>
+    </ClInclude>
+    <ClInclude Include="Transformer_Scalar.h">
+      <Filter>Transformer</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformerEvent.h">
+      <Filter>Transformer</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="Helper.h" />
+    <ClInclude Include="Include.h" />
+    <ClInclude Include="LibraryLink.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GameObject.inl">
+      <Filter>GameObject</Filter>
+    </None>
+    <None Include="Node.inl">
+      <Filter>Node</Filter>
+    </None>
+  </ItemGroup>
+</Project>
